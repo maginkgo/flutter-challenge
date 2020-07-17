@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
-import 'app/modules/home/home_page.dart';
+import 'app/ui/home/home_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SplashScreen.navigate(
         backgroundColor: Theme.of(context).backgroundColor,
-        name: 'intro.flr',
+        name: 'assets/intro.flr',
         next: (context) => HomePage(),
         until: () => Future.delayed(Duration(seconds: 5)),
         startAnimation: '1',

@@ -1,5 +1,6 @@
-import 'package:defiant_challenge/app/modules/home/data/models/coin_model.dart';
 import 'package:dio/dio.dart';
+
+import '../data/models/coin_model.dart';
 
 const _BASE_URL = 'https://api.coingecko.com/api/v3';
 

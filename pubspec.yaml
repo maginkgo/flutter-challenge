@@ -11,6 +11,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^3.3.0
+  get_storage: ^1.2.1
+  dio: ^3.0.9
+  flare_splash_screen: ^3.0.1
+  equatable: ^1.2.2
+  meta: ^1.1.8
+  flutter_launcher_icons: ^0.7.5
 
 dev_dependencies:
   flutter_test:
@@ -19,4 +26,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # assets:
+  assets:
+    - assets/intro.flr
